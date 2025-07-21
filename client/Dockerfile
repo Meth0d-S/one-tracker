@@ -1,4 +1,5 @@
 FROM node:alpine as build
+USER root
 
 COPY package.json package.json
 
