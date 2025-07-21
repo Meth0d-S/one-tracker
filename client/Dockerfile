@@ -6,7 +6,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build
+RUN sudo npm run build
 
 FROM nginx:stable-alpine
 
